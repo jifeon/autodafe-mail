@@ -1,0 +1,36 @@
+{
+    "name": "autodafe-mail",
+    "description": "A mailing component for autodafe, emailjs wrapper",
+    "keywords": ["autodafe", "mail"],
+    "homepage": "http://autodafe.ws",
+    "version": "1.0.0",
+    "author": "Andrey Balakirev <balakirev.andrey@gmail.com>",
+    "contributors": [ "Vladimir Balakirev <bvlvl2003@rambler.ru>" ],
+    "main": "./lib/MailComponent",
+    "bugs": {
+        "url": "https://github.com/jifeon/autodafe-mail/issues",
+        "email": "balakirev.andrey@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jifeon/autodafe-mail.git"
+    },
+    "directories": {
+        "lib": "./lib"
+    },
+    "scripts": {
+        "test": "vows tests/vows/* --spec"
+    },
+    "dependencies": {
+        "emailjs": "0.3.6"
+    },
+    "devDependencies": {
+        "vows": ">=0.5.8"
+    },
+    "peerDeendencies": {
+        "autodafe": "1.0.0"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    }
+}
